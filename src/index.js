@@ -24,4 +24,6 @@ const createNewTask = event => {
   event.target.reset();
 };
 
-
+const appendNewTask = task => {
+  document.getElementById("tasks").appendChild(task);
+};
